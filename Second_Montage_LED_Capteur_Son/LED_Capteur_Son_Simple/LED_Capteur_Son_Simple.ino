@@ -39,5 +39,4 @@ void loop() {
   }
   Serial.print("La valeur lue est : "); //On affiche le résultat dans le Serial.
   Serial.println(valeur_lue);           //On affiche la valeur_lue dans le Serial
-  delay(150);
 }
