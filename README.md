@@ -28,8 +28,8 @@ Code pour stand de la Fabrique d'Objets Libres lors de la fête des Lumières en
 5 - Branchez votre SparkFun Pro Micro via le port USB vous devez le voir apparaître dans : 
 
 * Outils ▸ Port Série :
-* Mac & Linux : /dev/tty.usbmodemX où X est un nombre.
-* Windows : COMX où X est un nombre
+    * Mac & Linux : /dev/tty.usbmodemX où X est un nombre.
+    * Windows : COMX où X est un nombre
 
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/img/outils_ports.png)
 
@@ -37,9 +37,9 @@ Code pour stand de la Fabrique d'Objets Libres lors de la fête des Lumières en
 
 
 * NB : Si le visuel du microcontrolleur est un peu différent sur les photos : 
-
-- Pas de port USB 
-- Couleur PCB 
+    
+    * Pas de port USB 
+    * Couleur PCB 
 
 * IL N'EN RESTE PAS MOINS QUE LES CONNEXIONS SE FONT SUR LES MÊMES SORTIES !!!!
 
