@@ -20,21 +20,21 @@ Code pour stand de la Fabrique d'Objets Libres lors de la fête des Lumières en
 
 4 - Puis, redémarrez l'Arduino IDE, vous pouvez maintenant choisir le bon type de carte : 
     
-*Outils ▸ Type de carte ▸ SpakFun Pro Micro 5V/16MHz
+* Outils ▸ Type de carte ▸ SpakFun Pro Micro 5V/16MHz
 
 5 - Branchez votre SparkFun Pro Micro via le port USB vous devez le voir apparaître dans : 
 
 * Outils ▸ Port Série :
-        * Mac & Linux : /dev/tty.usbmodemX où X est un nombre.
-        * Windows : COMX où X est un nombre
+    * Mac & Linux : /dev/tty.usbmodemX où X est un nombre.
+    * Windows : COMX où X est un nombre
 
 6 - Il vous suffit alors de réaliser les branchements qui sont décrit grâce à une image dans les dossiers des différents montages et à uploader un des deux codes correspondants pour commencer à vous amusez... 
 
 
 * NB : Si le visuel du microcontrolleur est un peu différent sur les photos : 
 
-            - Pas de port USB 
-            - Couleur PCB 
+    - Pas de port USB 
+    - Couleur PCB 
 
 * IL N'EN RESTE PAS MOINS QUE LES CONNEXIONS SE FONT SUR LES MÊMES SORTIES !!!!
 
