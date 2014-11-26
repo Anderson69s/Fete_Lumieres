@@ -23,7 +23,7 @@ Code pour stand de la Fabrique d'Objets Libres lors de la fête des Lumières en
 
 * Outils ▸ Type de carte ▸ SpakFun Pro Micro 5V/16MHz
 
-![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/img/outils_ports.png)
+![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/img/type_de_carte.png)
 
 5 - Branchez votre SparkFun Pro Micro via le port USB vous devez le voir apparaître dans : 
 
@@ -31,7 +31,7 @@ Code pour stand de la Fabrique d'Objets Libres lors de la fête des Lumières en
 * Mac & Linux : /dev/tty.usbmodemX où X est un nombre.
 * Windows : COMX où X est un nombre
 
-![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/img/type_de_carte.png)
+![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/img/outils_ports.png)
 
 6 - Il vous suffit alors de réaliser les branchements qui sont décrit grâce à une image dans les dossiers des différents montages et à uploader un des deux codes correspondants pour commencer à vous amusez... 
 
