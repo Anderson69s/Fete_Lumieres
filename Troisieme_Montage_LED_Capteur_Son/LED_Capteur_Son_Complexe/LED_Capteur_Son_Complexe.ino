@@ -1,7 +1,7 @@
 int rouge = 9; //Le pin 9 s'appelle maintenant rouge
 int bleu = 8; //Le pin 8 s'appelle maintenant bleu
 int vert = 7; //Le pin 7 s'appelle maintenant vert
-int capteur_son = A0; //Le pin A0 s'appelle maintenant capteur_son
+int capteur_lumiere = A0; //Le pin A0 s'appelle maintenant capteur_lumière
 
 // Fonction Setup qui est utilisé une fois au redémarrage de l'arduino
 void setup() {
@@ -13,9 +13,9 @@ void setup() {
 
 // Fonction loop qui tourne pour toujours
 void loop() {
-  int valeur_lue = analogRead(capteur_son); //On lit la valeur du capteur et on appelle la valeur : valeur_lue
-  int rangement_son = map(valeur_lue, 0, 400, 0, 7); //On crée un entier grace à la fonction map qui renvoie un chiffre entre 0 et 6 d'après la valeur du capteur
-  switch (rangement_son) { //On fait alors appelle à la fonction switch qui va nous permettre de définir les actions en fonction de rangement_son
+  int valeur_lue = analogRead(capteur_lumiere); //On lit la valeur du capteur et on appelle la valeur : valeur_lue
+  int rangement_lumiere = map(valeur_lue, 0, 800, 0, 7); //On crée un entier grace à la fonction map qui renvoie un chiffre entre 0 et 6 d'après la valeur du capteur
+  switch (rangement_lumiere) { //On fait alors appelle à la fonction switch qui va nous permettre de définir les actions en fonction de rangement_lumiere
   case 0:                            //Si rangement_lumière = 0
     digitalWrite(bleu, HIGH);        //LED bleu allumée
     digitalWrite(vert, HIGH);        //LED verte allumée
@@ -61,5 +61,5 @@ void loop() {
   }                                  //Fin de la fonction switch
   Serial.print("La valeur lue est : "); //On affiche le résultat dans le Serial.
   Serial.println(valeur_lue);           //On affiche la valeur_lue dans le Serial
-  delay(250);                            // Petit pause d' 1/4 de seconde
+  delay(150);                            // Petit pause d' 1/4 de seconde
 }

@@ -2,7 +2,7 @@ int rouge = 9; //Le pin 9 s'appelle maintenant rouge
 int bleu = 8; //Le pin 8 s'appelle maintenant bleu
 int vert = 7; //Le pin 7 s'appelle maintenant vert
 int capteur_son = A0; //Le pin A0 s'appelle maintenant capteur_son
-const int limite = 10;//Valeur limite à partir de laquelle les LED s'allument
+const int limite = 50;//Valeur limite à partir de laquelle les LED s'allument
 
 // Fonction Setup qui est utilisé une fois au redémarrage de l'arduino
 void setup() {
@@ -39,4 +39,5 @@ void loop() {
   }
   Serial.print("La valeur lue est : "); //On affiche le résultat dans le Serial.
   Serial.println(valeur_lue);           //On affiche la valeur_lue dans le Serial
+  delay(150);
 }
