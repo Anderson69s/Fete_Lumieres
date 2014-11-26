@@ -17,24 +17,29 @@ Code pour stand de la Fabrique d'Objets Libres lors de la fête des Lumières en
 * Mac : OS X ▸ Utilisateurs ▸ Nom_Utilisateur ▸ Documents ▸ Arduino ▸ hardware
 * Linux : /home ▸ Nom_Utilisateur ▸ sketchbook ▸ hardware
 
+![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/img/hardware_folder.png)
 
 4 - Puis, redémarrez l'Arduino IDE, vous pouvez maintenant choisir le bon type de carte : 
-    
+
 * Outils ▸ Type de carte ▸ SpakFun Pro Micro 5V/16MHz
+
+![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/img/outils_ports.png)
 
 5 - Branchez votre SparkFun Pro Micro via le port USB vous devez le voir apparaître dans : 
 
 * Outils ▸ Port Série :
-    * Mac & Linux : /dev/tty.usbmodemX où X est un nombre.
-    * Windows : COMX où X est un nombre
+* Mac & Linux : /dev/tty.usbmodemX où X est un nombre.
+* Windows : COMX où X est un nombre
+
+![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/img/type_de_carte.png)
 
 6 - Il vous suffit alors de réaliser les branchements qui sont décrit grâce à une image dans les dossiers des différents montages et à uploader un des deux codes correspondants pour commencer à vous amusez... 
 
 
 * NB : Si le visuel du microcontrolleur est un peu différent sur les photos : 
 
-    - Pas de port USB 
-    - Couleur PCB 
+- Pas de port USB 
+- Couleur PCB 
 
 * IL N'EN RESTE PAS MOINS QUE LES CONNEXIONS SE FONT SUR LES MÊMES SORTIES !!!!
 
