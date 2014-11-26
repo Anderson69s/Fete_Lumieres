@@ -12,22 +12,49 @@ void setup() {
 
 // Fonction loop qui tourne pour toujours
 void loop() {
-  
+
   digitalWrite(rouge, HIGH); // On allume la LED rouge
   delay(1000);               // On attend une seconde
   digitalWrite(rouge, LOW);  // On éteint la LED rouge
   delay(1000);               // On attend une seconde
+
   digitalWrite(bleu, HIGH);  //On allume la LED bleue
   delay(1000);               // On attend une seconde
   digitalWrite(bleu, LOW);   // On éteint la LED bleue
   delay(1000);               // On attend une seconde
+
   digitalWrite(vert, HIGH);  // On allume la LED verte
   delay(1000);               // On attend une seconde
   digitalWrite(vert, LOW);   //On éteint la LED verte
   delay(1000);               // On attend une seconde
+
+  //On peut faire d'autres couleurs : violet
+  
+  digitalWrite(rouge, HIGH); // On allume la LED rouge
+  digitalWrite(bleu, HIGH);  //On allume la LED bleue
+  delay(1000);               // On attend une seconde
+  digitalWrite(rouge, LOW);  // On éteint la LED rouge
+  digitalWrite(bleu, LOW);   // On éteint la LED bleue
+  delay(1000);               // On attend une seconde
+
+  //On peut faire d'autres couleurs : jaune
+  
+  digitalWrite(rouge, HIGH); // On allume la LED rouge
+  digitalWrite(vert, HIGH);  //On allume la LED verte
+  delay(1000);               // On attend une seconde
+  digitalWrite(rouge, LOW);  // On éteint la LED rouge
+  digitalWrite(vert, LOW);   // On éteint la LED vert
+  delay(1000);               // On attend une seconde
+
+  //On peut faire d'autres couleurs : blanc
+  
+  digitalWrite(rouge, HIGH); // On allume la LED rouge
+  digitalWrite(vert, HIGH);  //On allume la LED vert
+  digitalWrite(bleu, HIGH);  //On allume la LED bleue
+  delay(1000);               // On attend une seconde
+  digitalWrite(rouge, LOW);  // On éteint la LED rouge
+  digitalWrite(vert, LOW);   // On éteint la LED vert
+  digitalWrite(bleu, LOW);   // On éteint la LED bleue
+  delay(1000);               // On attend une seconde
+
 }
-
-
-
-
-
