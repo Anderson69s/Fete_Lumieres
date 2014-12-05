@@ -1,8 +1,8 @@
 int rouge = 9; //Le pin 9 s'appelle maintenant rouge
 int bleu = 8; //Le pin 8 s'appelle maintenant bleu
 int vert = 7; //Le pin 7 s'appelle maintenant vert
-int capteur_son = A0; //Le pin A0 s'appelle maintenant capteur_son
-const int limite = 50;//Valeur limite à partir de laquelle les LED s'allument
+int capteur_lumiere = A0; //Le pin A0 s'appelle maintenant capteur_lumiere
+const int limite = 150;//Valeur limite à partir de laquelle les LED s'allument
 
 // Fonction Setup qui est utilisé une fois au redémarrage de l'arduino
 void setup() {
@@ -14,7 +14,7 @@ void setup() {
 
 // Fonction loop qui tourne pour toujours
 void loop() {
-  int valeur_lue = analogRead(capteur_son); //On lit la valeur du capteur et on appelle la valeur : valeur_lue
+  int valeur_lue = analogRead(capteur_lumiere); //On lit la valeur du capteur et on appelle la valeur : valeur_lue
   if(valeur_lue > limite)                       // Si la valeur_lue est supérieure à la limite définie 
   {
     digitalWrite(vert,HIGH);      //On allume la LED verte
@@ -29,14 +29,15 @@ void loop() {
     delay(250);                   //Pause 1/4 de seconde
     digitalWrite(rouge, LOW);     //On éteint la LED rouge
     delay(250);                   //Pause 1/4 de seconde
-  }
+   }
   else                            //Sinon si valeur_lue est inférieure à la limite
   {
     digitalWrite(rouge, HIGH);  // On allume la LED rouge
-    delay(250);                 // On attend une seconde
+    delay(250);                 // On attend 1/4 de seconde
     digitalWrite(rouge, LOW);   // On éteint la LED rouge
-    delay(250);                 // On attend une seconde
-  }
+    delay(250);                 // On attend 1/4 de seconde
+   }
   Serial.print("La valeur lue est : "); //On affiche le résultat dans le Serial.
   Serial.println(valeur_lue);           //On affiche la valeur_lue dans le Serial
+  delay(150);
 }
