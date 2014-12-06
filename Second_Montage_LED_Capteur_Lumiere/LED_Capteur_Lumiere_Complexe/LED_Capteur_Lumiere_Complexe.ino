@@ -14,7 +14,7 @@ void setup() {
 // Fonction loop qui tourne pour toujours
 void loop() {
   int valeur_lue = analogRead(capteur_lumiere); //On lit la valeur du capteur et on appelle la valeur : valeur_lue
-  int rangement_lumiere = map(valeur_lue, 0, 800, 0, 7); //On crée un entier grace à la fonction map qui renvoie un chiffre entre 0 et 6 d'après la valeur du capteur
+  int rangement_lumiere = map(valeur_lue, 0, 1023, 0, 7); //On crée un entier grace à la fonction map qui renvoie un chiffre entre 0 et 6 d'après la valeur du capteur
   switch (rangement_lumiere) { //On fait alors appelle à la fonction switch qui va nous permettre de définir les actions en fonction de rangement_lumiere
   case 0:                            //Si rangement_lumière = 0
     analogWrite(bleu, 255);        //LED bleu allumée
