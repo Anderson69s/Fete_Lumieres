@@ -32,7 +32,7 @@ void loop() {
    }
   else                            //Sinon si valeur_lue est inférieure à la limite
   {
-    analogWrite(rouge, 255);  // On allume la LED rouge
+    analogWrite(rouge, 5);  // On allume la LED rouge
     delay(250);                 // On attend 1/4 de seconde
     analogWrite(rouge, 0);   // On éteint la LED rouge
     delay(250);                 // On attend 1/4 de seconde
