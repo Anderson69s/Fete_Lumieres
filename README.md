@@ -34,25 +34,47 @@ Rendez-vous dans les propriétés de l'ordinateur :
 
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_prorietes_ordinateur.png)
 
-![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_gestionnaire_peripherique)
+Ouvrez le Gestionnaire de Périphériques :
+
+![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_gestionnaire_peripherique.png)
+
+Notre carte apparaît en USB IO Board :
 
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_pas_driver.png)
 
+Faites un clic droit sur la carte et choississez mettre à jour le pilote :
+
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_maj_driver.png)
+
+Sélectionnez Rechercher un pilote sur mon ordinateur :
 
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_source.png)
 
+Cliquez sur parcourir pour indiquer le bon chemin :
+
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_source_choix.png)
+
+Sélectionnez le dossier drivers contenu dans le zip :
 
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_source_driver.png)
 
+Cliquez sur Suivant pour valider :
+
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_source_lancement_recherche.png)
+
+Choissiez de toujours faire confiance et installez le pilote : 
 
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_confirmation_installation.png)
 
+On attend le temps de l'installation :
+
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_durant_installation.png)
 
+Si l'installation ce passe bien, il affiche le bon nom de carte, vous pouvez alors cliquez sur fermer :
+
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_installation_finie.png)
+
+Notre carte est maintenant bien reconnu par windows : (pensez à noter le numéro de port COM ici 6)
 
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Drivers_carte_bien_reconnue.png)
 
