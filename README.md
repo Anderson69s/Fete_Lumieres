@@ -13,6 +13,15 @@ Carte utilisée : Polulu A-Star 32U4 :
 
 ![alt tag](https://raw.githubusercontent.com/Anderson69s/Fete_Lumieres/master/images_installation/Arduino_IDE_hardware_folder.png)
 
+Installation Driver : WINDOWS UNIQUEMENT!!!!
+============================================
+
+Avant de pouvoir utiliser la carte sur Windows il va falloir installer le driver qui n'est pas disponible en ligne via Windows Update. Voici un petit guide qui devrait vous aider :
+
+
+
+Utiliser la Carte Polulu
+========================
 
 1 - Pour éditer et envoyer le code sur la carte Polulu A-Start 32U4, il vous faut télécharger l'Arduino IDE disponible gratuitement ici : ![alt tag](http://arduino.cc/en/Main/Software) . La dernière version en date stable est la 1.0.6 disponible sur Windows, Mac et Linux.
 
