@@ -23,9 +23,9 @@ Avant de pouvoir utiliser la carte sur Windows il va falloir installer le driver
 Utiliser la Carte Polulu
 ========================
 
-1 - Pour éditer et envoyer le code sur la carte Polulu A-Start 32U4, il vous faut télécharger l'Arduino IDE disponible gratuitement ici : ![alt](http://arduino.cc/en/Main/Software) . La dernière version en date stable est la 1.0.6 disponible sur Windows, Mac et Linux.
+1 - Pour éditer et envoyer le code sur la carte Polulu A-Start 32U4, il vous faut télécharger l'Arduino IDE disponible gratuitement ici : ![a link](http://arduino.cc/en/Main/Software) . La dernière version en date stable est la 1.0.6 disponible sur Windows, Mac et Linux.
 
-2 - La fiche descriptive et le schéma de la carte de Polulu sont disponibles ici : ![alt](http://www.pololu.com/product/3101/resources). Pour envoyer le code sur la carte il faut rajouter un dossier dans le dossier hardware de l'application Arduino IDE. Le nom du dossier à ajouter est polulu. Il est disponible dans ce Github (/hardware/polulu), mais le github officiel est ici si vous le désirez: ![alt](https://github.com/pololu/a-star).
+2 - La fiche descriptive et le schéma de la carte de Polulu sont disponibles ici : ![a link](http://www.pololu.com/product/3101/resources). Pour envoyer le code sur la carte il faut rajouter un dossier dans le dossier hardware de l'application Arduino IDE. Le nom du dossier à ajouter est polulu. Il est disponible dans ce Github (/hardware/polulu), mais le github officiel est ici si vous le désirez: ![a link](https://github.com/pololu/a-star).
 
 3 - Il faudra donc copier le dossier polulu dans un des dossier suivant en fonction de votre système d'exploitation :
 
