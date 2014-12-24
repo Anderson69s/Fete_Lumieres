@@ -1,8 +1,8 @@
 int rouge = 9; //Le pin 9 s'appelle maintenant rouge
 int bleu = 5; //Le pin 5 s'appelle maintenant bleu
 int vert = 6; //Le pin 6 s'appelle maintenant vert
-int capteur_lumiere = A0; //Le pin A0 s'appelle maintenant capteur_lumiere
-const int limite = 300;//Valeur limite à partir de laquelle les LED s'allument
+int capteur_temp = A0; //Le pin A0 s'appelle maintenant capteur_temp
+const int limite = 25;//Valeur limite à partir de laquelle les LED s'allument
 
 // Fonction Setup qui est utilisé une fois au redémarrage de l'arduino
 void setup() {
@@ -14,8 +14,9 @@ void setup() {
 
 // Fonction loop qui tourne pour toujours
 void loop() {
-  int valeur_lue = analogRead(capteur_lumiere); //On lit la valeur du capteur et on appelle la valeur : valeur_lue
-  if(valeur_lue > limite)                       // Si la valeur_lue est supérieure à la limite définie 
+  int valeur_lue = analogRead(capteur_temp); //On lit la valeur du capteur et on appelle la valeur : valeur_lue
+  int temp = valeur_lue * 0.48828125; //On converti notre valeur analogique en degrés Celsius
+  if(temp > limite)                        // Si la valeur_lue est supérieure à la limite définie 
   {
     analogWrite(vert,255);      //On allume la LED verte
     delay(250);                   //Pause 1/4 de seconde
@@ -29,15 +30,18 @@ void loop() {
     delay(250);                   //Pause 1/4 de seconde
     analogWrite(rouge, 0);     //On éteint la LED rouge
     delay(250);                   //Pause 1/4 de seconde
-   }
+  }
   else                            //Sinon si valeur_lue est inférieure à la limite
   {
-    analogWrite(rouge, 5);  // On allume la LED rouge
+    analogWrite(rouge, 255);  // On allume la LED rouge
     delay(250);                 // On attend 1/4 de seconde
     analogWrite(rouge, 0);   // On éteint la LED rouge
     delay(250);                 // On attend 1/4 de seconde
-   }
+  }
   Serial.print("La valeur lue est : "); //On affiche le résultat dans le Serial.
   Serial.println(valeur_lue);           //On affiche la valeur_lue dans le Serial
+  Serial.print("La Temp lue est : "); //On affiche le résultat dans le Serial.
+  Serial.println(temp);           //On affiche la temp dans le Serial
   delay(150);
 }
+
